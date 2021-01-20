@@ -1,0 +1,33 @@
+Ul{
+    list-style-type: none;
+    margin:10px;
+    padding: 8px;
+    background: #a64dff;
+}
+
+LI{
+    display: inline;
+    margin-right: 20px;
+}
+
+A{
+    font-family: Oswald, monospace;
+    text-decoration: none;
+    color: white;
+}
+
+A:hover{
+    color: #9faabc;
+    background: #edefee;
+    padding: 8px;
+}
+
+LI:first-child{
+    margin-left: 40px;
+}
+
+LI:last-child{
+    margin-left: 580px;
+}
+
+

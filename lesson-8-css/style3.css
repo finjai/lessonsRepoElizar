@@ -1,0 +1,21 @@
+TR>TD:nth-child(2n+3){
+    background: #f2f2dd;
+}
+
+TR:nth-child(2n){
+    background: #ddebf8;
+}
+
+TR:nth-child(2n+1){
+    background: white;
+}
+
+TD {
+    border-bottom: 1px solid lightgrey;
+    width: 90px;
+    height: 25px;
+    text-align: center;
+ }
+TABLE{
+    border-spacing: 0;
+}
