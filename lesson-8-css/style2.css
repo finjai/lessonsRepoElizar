@@ -1,33 +1,35 @@
-Ul{
+NAV Ul {
     list-style-type: none;
-    margin:10px;
-    padding: 8px;
     background: #a64dff;
+    height: 35px;
 }
 
-LI{
-    display: inline;
-    margin-right: 20px;
+NAV UL LI {
+    float: left;
 }
 
-A{
+NAV UL LI A{
     font-family: Oswald, monospace;
     text-decoration: none;
     color: white;
+    padding: 0 14.3px;
+    line-height: 35px;
+    display: block;
+    height: 35px;
 }
 
-A:hover{
+NAV UL LI A:hover {
     color: #9faabc;
     background: #edefee;
-    padding: 8px;
+    box-shadow: 1px 1px #9faabc;
 }
 
-LI:first-child{
-    margin-left: 40px;
+NAV UL LI:first-child {
+    margin-left: 13px;
 }
 
-LI:last-child{
-    margin-left: 580px;
+NAV UL LI:last-child {
+    margin-left: 249px;
 }
 
 
