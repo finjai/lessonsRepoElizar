@@ -1,0 +1,53 @@
+P EM {
+    background-color: green;
+    color: white;
+}
+
+H1 {
+    color: orange;
+    text-align: right;
+}
+
+P+H2 {
+    color: orange;
+}
+
+UL+H2 {
+    color: blue;
+}
+
+SPAN {
+    font-weight: bold;
+}
+
+P:first-letter {
+    color:red;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+OL>LI {
+    color: red;
+}
+
+TABLE {
+    border: 2px solid grey;
+    width: 500px;
+}
+
+TD {
+    border: 2px solid grey;
+}
+
+TD[rowspan="2"] {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+TD[colspan="3"] {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+

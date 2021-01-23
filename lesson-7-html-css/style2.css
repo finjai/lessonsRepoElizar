@@ -1,0 +1,21 @@
+A[target="_blank"] {
+    color:#f70;
+}
+
+SPAN {
+    color: #f70;
+    transform: rotate(360deg);
+    writing-mode: tb-rl;
+}
+
+A[href$=".by"] {
+    color: blue;
+}
+
+A[href$=".ru"] {
+    color: #f70;
+}
+
+A[href*="google"] {
+    color: #666;
+}
