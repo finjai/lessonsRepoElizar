@@ -1,14 +1,14 @@
-NAV Ul {
+nav ul {
     list-style-type: none;
     background: #a64dff;
     height: 35px;
 }
 
-NAV UL LI {
+nav ul li {
     float: left;
 }
 
-NAV UL LI A{
+nav ul li a {
     font-family: Oswald, monospace;
     text-decoration: none;
     color: white;
@@ -18,17 +18,17 @@ NAV UL LI A{
     height: 35px;
 }
 
-NAV UL LI A:hover {
+nav ul li a:hover {
     color: #9faabc;
     background: #edefee;
     box-shadow: 1px 1px #9faabc;
 }
 
-NAV UL LI:first-child {
+nav ul li:first-child {
     margin-left: 13px;
 }
 
-NAV UL LI:last-child {
+nav ul li:last-child {
     margin-left: 249px;
 }
 
