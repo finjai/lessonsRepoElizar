@@ -1,0 +1,48 @@
+nav {
+    background-color: lightgrey;
+    height: 40px;
+    padding-top: 20px;
+}
+
+nav ul {
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+ul li {
+    display: inline;
+    padding: 2px;
+}
+
+li a {
+    font-family: Calibri;
+    color: blueviolet;
+    text-decoration: none;
+    margin: 0;
+    height: 10px;
+}
+
+span {
+    display: inline;
+    margin-top: 20px;
+}
+
+ul li:nth-child(n+3):nth-child(-n+4) a,
+span+ul li:nth-child(-n+5) a {
+    border: 1px solid darkgray;
+    border-radius: 5px 5px 5px 5px;
+    padding: 6px 10px 6px 10px;
+}
+
+span+Ul li:nth-child(2) a{
+    color: white;
+    background-color: blueviolet;
+}
+
+ul li:nth-child(n+3):nth-child(-n+4) a:hover,
+span+ul li:nth-child(-n+5) a:hover {
+    background-color: blueviolet;
+    color: white;
+}
