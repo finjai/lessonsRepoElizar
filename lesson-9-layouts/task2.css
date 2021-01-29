@@ -1,5 +1,5 @@
 nav {
-    background-color: lightgrey;
+    background-color: #fafafa;
     height: 40px;
     padding-top: 20px;
 }
@@ -18,31 +18,30 @@ ul li {
 
 li a {
     font-family: Calibri;
-    color: blueviolet;
+    color: #a238d0;
     text-decoration: none;
     margin: 0;
     height: 10px;
 }
 
 span {
-    display: inline;
-    margin-top: 20px;
+    padding: 6px;
 }
 
 ul li:nth-child(n+3):nth-child(-n+4) a,
 span+ul li:nth-child(-n+5) a {
-    border: 1px solid darkgray;
+    border: 1px solid #ededed;
     border-radius: 5px 5px 5px 5px;
     padding: 6px 10px 6px 10px;
 }
 
 span+Ul li:nth-child(2) a{
     color: white;
-    background-color: blueviolet;
+    background-color: #a238d0;
 }
 
 ul li:nth-child(n+3):nth-child(-n+4) a:hover,
 span+ul li:nth-child(-n+5) a:hover {
-    background-color: blueviolet;
+    background-color: #a238d0;
     color: white;
 }
