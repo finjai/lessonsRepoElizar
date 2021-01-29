@@ -46,18 +46,12 @@ span+ul li:nth-child(-n+5) a:hover {
     color: white;
 }
 
-nav ul:first-child li:first-child a {
+nav ul:first-child li:first-child a,
+span+ul li:nth-child(6) a {
     margin-right: 20px;
 }
 
-nav ul:first-child li:nth-child(2) a {
+nav ul:first-child li:nth-child(2) a,
+span+ul li:nth-child(5) a {
     margin-right: 10px;
-}
-
-span+ul li:nth-child(6) a {
-    margin-left: 10px;
-}
-
-span+ul li:nth-child(7) a {
-    margin-left: 20px;
 }
