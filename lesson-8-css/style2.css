@@ -1,0 +1,35 @@
+nav ul {
+    list-style-type: none;
+    background: #a64dff;
+    height: 35px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    font-family: Oswald, monospace;
+    text-decoration: none;
+    color: white;
+    padding: 0 14.3px;
+    line-height: 35px;
+    display: block;
+    height: 35px;
+}
+
+nav ul li a:hover {
+    color: #9faabc;
+    background: #edefee;
+    box-shadow: 1px 1px #9faabc;
+}
+
+nav ul li:first-child {
+    margin-left: 13px;
+}
+
+nav ul li:last-child {
+    margin-left: 249px;
+}
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>task1</title>
+</head>
+<body>
+<h1>Sign up to the app</h1>
+<form>
+  <fieldset>
+    <legend>Personal information</legend>
+    <label for="fname">First name:</label><br/>
+    <input type="text" id="fname" value="Mickey"><br/><br/>
+    <label for="lname">Last name:</label><br/>
+    <input type="text" id="lname" value="Mouse"><br/><br/>
+    <label for="textarea">Self-presentation:</label><br/>
+    <textarea id="textarea" rows="10" cols="30">The cat was playing in the garden
+    </textarea>
+  </fieldset><br/>
+  <fieldset>
+    <legend>Car info(The brand:)</legend>
+    <label>
+      <select>
+          <option value="Volvo">Volvo</option>
+          <option value="Saab">Saab</option>
+          <option value="Fiat">Fiat</option>
+          <option value="Audi">Audi</option>
+      </select>
+    </label>
+  </fieldset><br/>
+  <fieldset>
+    <legend>Choose one:</legend>
+    <input type="radio" id="male" name="one">
+    <label for="male">Male</label><br/>
+    <input type="radio" id="female" name="one">
+    <label for="female">Female</label><br/>
+    <input type="radio" id="other" name="one">
+    <label for="other">Other</label>
+  </fieldset><br/>
+  <fieldset>
+    <legend>Choose many:</legend>
+    <input type="checkbox" id="bike" name="bike">
+    <label for="bike">I have a bike</label><br/>
+    <input type="checkbox" id="car" name="car">
+    <label for="car">I have a car</label>
+  </fieldset><br/>
+  <input type="submit" value="Submit">
+  <input type="submit" value="Cancel">
+</form>
+</body>
+</html>
