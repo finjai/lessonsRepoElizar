@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    /*
+      margin-top и bottom схлопывается
+      у последовательно идущих блочных элементов
+      выигрывает бОльший размер отступа
+    */
+
+    li {
+      font-size: 24px;
+
+      margin-top: 5px;
+      margin-bottom: 10px;
+      /*
+        блоки должны идти в нормальном потоке
+        например если их сделать плавающими
+        с шириной 100%
+        то схлопывания происходить не будет
+
+        float: left;
+        width: 100%;
+      */
+      color: #fff;
+      background: red;
+    }
+  </style>
+</head>
+<body>
+<ul>
+  <li>item</li>
+  <li>item</li>
+  <li>item</li>
+  <li>item</li>
+</ul>
+</body>
+</html
