@@ -57,6 +57,7 @@ ul {
   height: 130px;
   width: 260px;
 }
+
 li {
   list-style: none;
   margin: 1px 1px 1px 1px;
@@ -64,12 +65,21 @@ li {
 }
 
 a {
-  box-sizing: border-box;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
   color: black;
   padding-left: 19px;
-  background: url(../image/arrow.png) no-repeat;
+}
+
+.arrow {
+  display: block;
+  margin-top: 16px;
+}
+
+.cardarrow {
+  position: absolute;
+  left: 50px;
+  top: 226px;
 }
 
 li:nth-child(odd) {
