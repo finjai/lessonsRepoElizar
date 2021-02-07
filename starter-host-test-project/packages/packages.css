@@ -49,16 +49,17 @@
 .package-plan__PREMIUM {
     background-color: #8F6E69;
     opacity: 0.9;
-    margin: 5px 250px 5px 0;
-    padding-left: 20px;
+    margin: 10px 250px 5px 0;
+    padding: 10px 0 0 20px;
+    height: 180px;
 }
 
 .packages-plan__plan3 {
     border: 1px solid grey;
     background-color: white;
     color: grey;
-    margin: 10px 250px 5px 0;
-    padding-left: 20px;
+    margin: 10px 20px 5px 0;
+    padding: 10px 10px 10px 20px;
 }
 
 .package-plan__colorw {
