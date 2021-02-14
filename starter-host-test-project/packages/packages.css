@@ -1,0 +1,71 @@
+.packages-background {
+    background-image: url("../images/plans-background.jpg");
+    background-size: cover;
+}
+
+.package-plan__PLUS {
+    border: 2px solid;
+    border-color: red red red transparent;
+    background-color: #A9A8A6;
+    opacity: 0.9;
+    margin: 70px 250px 5px 0;
+    padding-left: 20px;
+}
+
+.packages-plan__recommended {
+    float: right;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    padding: 4px;
+    margin: 8px;
+}
+
+.packages-plan__plan1 {
+    border: 1px solid grey;
+    margin: 2px 20px 30px 0;
+    background-color: white;
+    color: grey;
+}
+
+.package-plan__FREE {
+    border: 2px solid;
+    border-color: red transparent red red;
+    background-color: #A9A8A6;
+    opacity: 0.9;
+    margin: 10px 0 5px 250px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.packages-plan__plan2 {
+    border: 1px solid grey;
+    margin: 2px 0 30px 20px;
+    background-color: white;
+    color: grey;
+    padding: 5px;
+}
+
+.package-plan__PREMIUM {
+    background-color: #8F6E69;
+    opacity: 0.9;
+    margin: 10px 250px 5px 0;
+    padding: 10px 0 0 20px;
+    height: 180px;
+}
+
+.packages-plan__plan3 {
+    border: 1px solid grey;
+    background-color: white;
+    color: grey;
+    margin: 10px 20px 5px 0;
+    padding: 10px 10px 10px 20px;
+}
+
+.package-plan__colorw {
+    color: white;
+}
+
+.package-plan__colorg {
+    color: grey;
+}
