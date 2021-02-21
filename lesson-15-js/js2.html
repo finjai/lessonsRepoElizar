@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>JS</title>
+  <title>JS2</title>
 </head>
 <body>
   <script>
@@ -15,17 +15,8 @@
     var userAfter5Year = userAge + 5;
     var pension;
 
-    if(userSex===true) {
-      userSex = 'мужской'
-    } else {
-      userSex = 'женский'
-    }
-
-    if(userAge>60) {
-      pension = 'да'
-    } else  {
-      pension = 'нет'
-    }
+    userSex = (userSex===true)? 'мужской' : 'женский';
+    pension = (userAge>60)? 'да' : 'нет';
 
     alert('Ваше ФИО:'+' '+userSecondName+' '+userName+' '+userThirdName + '\n' +
       'Ваш возраст в годах:' + ' ' + userAge + '\n' +
