@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS</title>
+</head>
+<body>
+   <script>
+     'use strict';
+
+     function pow(a, b) {
+       var result = a;
+       for (var i = 1; i < b; i++) {
+         result *= a;
+        }
+       return result;
+     }
+
+     console.log(pow(5, 3));
+     console.log('--------------------------');
+     console.log(pow(1, 10));
+     console.log('--------------------------');
+     console.log(pow(5, 4));
+   </script>
+</body>
+</html>
