@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS</title>
+</head>
+<body>
+  <script>
+    var userName = prompt('Какое Ваше имя ?');
+    var userSecondName = prompt('Какая Ваша фамилия ?');
+    var userThirdName = prompt('Какое ваше отчество ?');
+    var userAge = parseInt(prompt('Сколько Вам лет ?'));
+    var userSex = confirm('Ваш пол - мужской?');
+    var userDay = userAge*365;
+    var userAfter5Year = userAge + 5;
+    var pension;
+
+    if(userSex===true) {
+      userSex = 'мужской'
+    } else {
+      userSex = 'женский'
+    }
+
+    if(userAge>60) {
+      pension = 'да'
+    } else  {
+      pension = 'нет'
+    }
+
+    alert('Ваше ФИО:'+' '+userSecondName+' '+userName+' '+userThirdName + '\n' +
+      'Ваш возраст в годах:' + ' ' + userAge + '\n' +
+      'Ваш возраст в днях:' + ' ' + userDay + '\n' +
+      'Через пять лет Вам будет:' + ' ' + userAfter5Year + '\n' +
+      'Ваш пол:' + ' ' + userSex + '\n' +
+      'Вы на пенсии:' + ' ' + pension
+    );
+  </script>
+</body>
+</html>
