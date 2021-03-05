@@ -1,0 +1,58 @@
+@import "../../project/style.css";
+
+:root {
+  --menu-bg-color: white;
+  --menu--link-bg-color: #FF5252;
+  --menu--link-text-color: var(--Lavender);
+  --menu--link-hover-bg-color: var(--DodgerBlue);
+  --menu--link-hover-texr-color: var(--LimeGreen);
+  --menu--item-active-color: var(--DarkKhaki);
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 0;
+  margin: 0;
+  background: var(--menu-bg-color);
+}
+
+.menu--item {
+  display: inline-block;
+  overflow: hidden;
+  height: 2.5em;
+  box-shadow:
+    0 0.25em 0.4em rgba(50, 50, 93, .11),
+    0 0.1em 0.25em rgba(0, 0, 0, .08);
+  border-radius: 0.5em;
+
+}
+
+.menu--link {
+  display: inline-block;
+  padding: 0.8em 2em;
+  border-radius: 0.5em;
+  color: var(--menu--link-bg-color);
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: .045em;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.menu--link:hover {
+  color: var(--LimeGreen);
+  background-color: var(--DodgerBlue);
+}
+
+.menu--item:active {
+  color: var(--DarkKhaki);
+  box-shadow:
+    0 0.9em 1.6em -0.5em rgba(60, 60, 85, .15),
+    0 0.6em 1em -0.5em rgba(0, 0, 0, 0.3);
+  transform: translateY(-0.1em);
+}
+
